@@ -1,0 +1,13 @@
+
+Generate observation data and true state data
+   -- Enable the generateRealObsevationData() and disable the ParticleFilter() in the main()
+   -- Run the PF_MobileRobot_Temperature.java
+   -- The observation data and true state data are saved in the real_state_observation_Data.txt under the PF_VehicleTemp folder. Note: you may need to create the PF_VehicleTemp folder first. 
+          
+Run particle filter to estimate state
+  -- Disable the generateRealObsevationData() and enable the ParticleFilter() in the main() 
+  -- Run the PF_MobileRobot_Temperature.java 
+  -- the DA results are saved in the DAResult.txt
+  -- Note: the TextReader.java is used to read data from the txt file. You may use your own way to read the data from the txt file. 
+  
+      
