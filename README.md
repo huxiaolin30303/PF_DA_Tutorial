@@ -1,5 +1,4 @@
-# PF_DA_Tutorial
-**Tutorial on Particle Filter-based Data Assimilation for Discrete Simulations**\
+# Tutorial on Particle Filter-based Data Assimilation for Discrete Simulations
 **Questions/Comments? Contact [Xiaolin Hu](https://sims.cs.gsu.edu/sims/XiaolinHu.htm)**
 
 This repository incldues the source codes for two tutorial examples. These two examples are deliberately chosen to support stepwise learning. The first example includes a simple and intuitive mobile robot system that is simulated by a discrete time model with underlying continuous state variables. The goal of this example is to demonstrate the overall procedure of particle filter-based data assimilation. The second example includes a more complex one-way traffic control system that is simulated by a discrete event simulation model. This example helps readers to learn how data assimilation can be applied and implemented for complex discrete event systems. 
