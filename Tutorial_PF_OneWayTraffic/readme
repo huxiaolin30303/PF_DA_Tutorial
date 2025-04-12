@@ -1,0 +1,14 @@
+Number of PF steps and step interval are defined in the PF_configData.java
+
+Generate observation data and true state data
+   -- Run the TrueSystemSimulation.java by instantiating the trafficControlSys_Real model. 
+   -- Case I and Case II random seeds are defined in model_configData.java
+   -- the data are saved by the transducer_real_dataSaving.java
+          
+Run particle filter to estimate state
+  -- run the PF.java 
+  -- If using different number of measurement data, change the computeWeight(). 
+  -- the DA results are saved by the DAResult0.txt file
+  -- If running DA for multiple time (i.e., the batch run case), modify the main() of the PF.java
+  
+      
