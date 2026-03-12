@@ -43,7 +43,7 @@ public class PF_MobileRobot_Temperature {
 	public static void main(String[] args) {
 		rand = new Random(1999999);
 
-//		generateRealObsevationData();  // run the "true system" simulation to generate real observation data
+//		generateRealObservationData();  // run the "true system" simulation to generate real observation data
 
 		ParticleFilter();
 
@@ -219,7 +219,7 @@ public class PF_MobileRobot_Temperature {
 		}
 	}
 
-	public static void generateRealObsevationData() {
+	public static void generateRealObservationData() {
 		try{
 			real_state_observation_Data = new PrintWriter(new FileOutputStream(folderName+"/real_state_observation_Data.txt"), true);
 		}
@@ -317,3 +317,4 @@ public class PF_MobileRobot_Temperature {
 	}
 
 }
+
